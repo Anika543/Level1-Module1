@@ -16,7 +16,7 @@ import game_tools.GameScene;
 public class AsteroidsGame implements GameScene, ActionListener {
 
 	/*
-	 * 1. In Java a constructor is a special method used to initialize objects If a
+	 * 1. In Java a constructor is a special method used to initialize objects. If a
 	 * class does have any constructors java will use a default constructor
 	 */
 	Rocket rocket = new Rocket();

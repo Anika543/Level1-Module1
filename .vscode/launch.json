@@ -3,6 +3,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PopcornMaker",
+            "request": "launch",
+            "mainClass": "_05_popcorn.PopcornMaker",
+            "projectName": "Level1-Module1_bb055907"
+        },
+        {
+            "type": "java",
+            "name": "HarryPotterRunner",
+            "request": "launch",
+            "mainClass": "_04_harry_potter.HarryPotterRunner",
+            "projectName": "Level1-Module1_bb055907"
+        },
+        {
+            "type": "java",
+            "name": "CatRunner",
+            "request": "launch",
+            "mainClass": "_03_cat.CatRunner",
+            "projectName": "Level1-Module1_bb055907"
+        },
+        {
+            "type": "java",
+            "name": "PlatypusRunner",
+            "request": "launch",
+            "mainClass": "_01_asteroids.PlatypusRunner",
+            "projectName": "Level1-Module1_bb055907"
+        },
+        {
+            "type": "java",
             "name": "AsteroidsRunner",
             "request": "launch",
             "mainClass": "_01_asteroids.AsteroidsRunner"
