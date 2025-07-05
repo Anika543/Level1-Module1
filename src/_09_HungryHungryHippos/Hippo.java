@@ -8,7 +8,13 @@ import java.awt.Rectangle;
 public class Hippo {
     /*
      * Member variables
+     * 
      */
+
+	String hippoName;
+	Color bodyColor;
+	
+	
     String location;
     int startNeckSpeed = 15;
     int neckMoveDistance = 100;
@@ -16,9 +22,10 @@ public class Hippo {
     /*
      * Constructor
      */
-    public Hippo(String location) {
+    public Hippo(String location, String hippoName, Color bodyColor) {
         this.location = location;
-        
+        this.hippoName = hippoName;
+        this.bodyColor = bodyColor; 
         setupPosition();
     }
     
@@ -26,8 +33,6 @@ public class Hippo {
         /*
          * Local variables
          */
-        Color bodyColor = Color.GRAY;
-        String hippoName = "Hippie Hippo";
         
         drawScore(g, hippoName);
         
